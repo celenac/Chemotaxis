@@ -21,7 +21,7 @@ Bacteria [] colony;
  	size(600,600);
  	noStroke();
  	frameRate(15);
- 	colony=new Bacteria[20];
+ 	colony=new Bacteria[25];
  	for(int i=0; i<colony.length;i++)
  	{
  		colony[i]=new Bacteria();
@@ -36,7 +36,7 @@ Bacteria [] colony;
  	 	colony[i].show();
  	 }
  	 fill(255,255,0,50);
-	ellipse(mouseX,mouseY,300,300);
+ellipse(mouseX,mouseY,300,300);
 	fill(255,255,0,20);
 	ellipse(mouseX,mouseY,250,250);
  }  
